@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   root "articles#index"
 
-  # nested resource
+  # nested resources
 
   resources :articles do
     resources :comments
